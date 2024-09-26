@@ -46,6 +46,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return "ФИО автора: %s\nНазвание книги: %s\nГод публикации: %s".formatted(author.toString(), nameBook, year);
+        return "ФИО автора: %s\nНазвание книги: %s\nГод публикации: %s".formatted(getAuthor().toString(), getNameBook(), getYear());
     }
 }
